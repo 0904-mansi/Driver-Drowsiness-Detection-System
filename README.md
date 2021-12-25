@@ -64,7 +64,9 @@ Create a function for calculating the blinking ratio or the eye aspect ratio of 
 ![](https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/06/eye-aspect-ratio.jpg)
 
 Starting from the left corner moving clockwise. We find the ratio of height and width of the eye to infer the open or close state of the eye.blink-ratio=(|p2-p6|+|p3-p5|)(2|p1-p4|). The ratio falls to approximately zero when the eye is close but remains constant when they are open.
-``python
+
+
+```python
 def eye_aspect_ratio(eye_landmark, face_roi_landmark):
     left_point = (face_roi_landmark.part(eye_landmark[0]).x, face_roi_landmark.part(eye_landmark[0]).y)
     right_point = (face_roi_landmark.part(eye_landmark[3]).x, face_roi_landmark.part(eye_landmark[3]).y)
@@ -74,7 +76,7 @@ def eye_aspect_ratio(eye_landmark, face_roi_landmark):
     ver_line_length = hypot((center_top[0] - center_bottom[0]), (center_top[1] - center_bottom[1]))
     ratio = hor_line_length / ver_line_length
     return ratio
-    ``
+ ```
     
    ## Create a function for calculating mouth aspect ratio
 Similarly, we define the mouth ratio function for finding out if a person is yawning or not. This function gives the ratio of height to width of mouth. If height is more than width it means that the mouth is wide open.
@@ -155,4 +157,9 @@ After we exit the loop we release the webcam capture and close all the windows a
 
 ![](https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/06/driver-drowsiness-detection-output.jpg)
 
-Made with ![Sanskriti Harmukh]() | ![Satyam Jain]() | ![Archit Chawda]()
+## Summary
+we have successfully created driver drowsiness detector, we can implement it in other projects like computer vision, self-driving cars, drive safety, etc.
+
+Driver drowsiness project can be used with a raspberry pie to create a standalone system for drivers, used as a web service, or installed in workplaces to monitor employees’ activity. The sensitivity and the number of frames can be changed according to the requirements.
+
+Made with 😃 ![Sanskriti Harmukh](https://github.com/SanskritiHarmukh) | ![Satyam Jain](https://github.com/Satyam298) | ![Archit Chawda](https://github.com/archit27-uo)

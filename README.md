@@ -154,3 +154,5 @@ After we exit the loop we release the webcam capture and close all the windows a
 ## Driver Drowsiness Detection Output
 
 ![](https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/06/driver-drowsiness-detection-output.jpg)
+
+Made with ![Sanskriti Harmukh]() | ![Satyam Jain]() | ![Archit Chawda]()

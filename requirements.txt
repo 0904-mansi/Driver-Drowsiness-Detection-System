@@ -1,0 +1,7 @@
+Opencv
+Numpy
+playsound
+Scipy
+dlib
+CMake
+face-recognition

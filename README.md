@@ -12,9 +12,9 @@ There has been an increase in safety systems in cars & other vehicles and many a
 
 ## The libraries need for driver drowsiness detection system are
 
-Opencv
-Dlib
-Numpy
+1. Opencv
+2. Dlib
+3. Numpy
 
 These are the only packages you will need for this machine learning project.
 

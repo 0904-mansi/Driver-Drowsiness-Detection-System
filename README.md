@@ -121,7 +121,7 @@ Passing the points of each eye to the compute_blinking_ratio function we calcula
         eye_open_ratio = (left_eye_ratio + right_eye_ratio) / 2
         cv2.putText(img, str(eye_open_ratio), (0, 13), font, 0.5, (100, 100, 100))
         ###print(left_eye_ratio,right_eye_ratio,eye_open_ratio)
-//Similarly we calculate the ratio for the mouth to get yawning status, for both outer and inner lips to be more accurate and calculate its mean.
+        #Similarly we calculate the ratio for the mouth to get yawning status, for both outer and inner lips to be more accurate and calculate its mean.
         inner_lip_ratio = mouth_aspect_ratio([60,62,64,66], landmark_list)
         outter_lip_ratio = mouth_aspect_ratio([48,51,54,57], landmark_list)
         mouth_open_ratio = (inner_lip_ratio + outter_lip_ratio) / 2;

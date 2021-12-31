@@ -162,4 +162,4 @@ we have successfully created driver drowsiness detector, we can implement it in 
 
 Driver drowsiness project can be used with a raspberry pie to create a standalone system for drivers, used as a web service, or installed in workplaces to monitor employees’ activity. The sensitivity and the number of frames can be changed according to the requirements.
 
-Made with 😃 [Sanskriti Harmukh](https://github.com/SanskritiHarmukh) | [Satyam Jain](https://github.com/Satyam298) | [Archit Chawda](https://github.com/archit27-uo)
+Made with Team [Sanskriti Harmukh](https://github.com/SanskritiHarmukh) | [Satyam Jain](https://github.com/Satyam298) | [Archit Chawda](https://github.com/archit27-uo) 😃.

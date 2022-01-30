@@ -1,5 +1,5 @@
-Opencv
-Numpy
+Opencv 3.0
+NumPy 1.14. 5
 playsound
 Scipy
 dlib

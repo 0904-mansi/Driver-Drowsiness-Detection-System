@@ -1,5 +1,5 @@
-Opencv=>latest
-NumPy=>latest
+Opencv>=latest
+NumPy>=latest
 playsound
 Scipy
 dlib
